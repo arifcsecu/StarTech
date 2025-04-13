@@ -11,6 +11,8 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    @livewireStyles
+
     <style>
         /* Custom styles */
         .top-header {
@@ -44,7 +46,6 @@
             color: #ffffff;
         }
     </style>
-    @livewireStyles
 
 
 </head>
@@ -53,121 +54,15 @@
 
 <body>
     <!-- Main Header with Logo and Search -->
-     @include('header')
+    @include('header')
     
     <!-- Category Navigation -->
-    <nav class="category-nav navbar navbar-expand-lg navbar-white bg-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories">
-                <span class="navbar-toggler-icon"></span> All Categories
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCategories">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Desktop</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Laptop</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Component</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Monitor</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">UPS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Phone</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Tablet</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Office Equipment</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Camera</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Security</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Networking</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Software</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#">Server & Stoarge</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    @include('navbar')
 
     @yield('home')
 
-    <h3>Best Price, Product, After-sales Customer Service, & Fastest Delivery</h3>
-    <p>Star Tech Ltd. has taken care of its customers since the beginning. Whether a customer is purchasing or inquiring, our customers get the highest priority. We deliver the best product for the best price with extended after-sales support & the highest standard of customer service. We offer your desired product within the fastest delivery timeframe. With our nationwide presence, we cover all 64 districts of Bangladesh. Our distribution hubs are located in Dhaka, Chattogram, Khulna, Rangpur, Gazipur, Rajshahi, and Mymensingh. We also have over 15 dedicated service centers and are proud to offer computer home service for the first time in Bangladesh. The plan to expand our operations in other cities is already in motion.</p>
-    <footer class="footer pt-5 pb-3">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <h5>Information</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white-50">About Us</a></li>
-                        <li><a href="#" class="text-white-50">Contact Us</a></li>
-                        <li><a href="#" class="text-white-50">Privacy Policy</a></li>
-                        <li><a href="#" class="text-white-50">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5>Customer Service</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white-50">FAQ</a></li>
-                        <li><a href="#" class="text-white-50">Returns</a></li>
-                        <li><a href="#" class="text-white-50">Warranty Policy</a></li>
-                        <li><a href="#" class="text-white-50">Shipping Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5>My Account</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white-50">My Account</a></li>
-                        <li><a href="#" class="text-white-50">Order History</a></li>
-                        <li><a href="#" class="text-white-50">Wish List</a></li>
-                        <li><a href="#" class="text-white-50">Newsletter</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5>Contact Us</h5>
-                    <address class="text-white-50">
-                        <p><i class="fas fa-map-marker-alt me-2"></i> 6th Floor, 28 Kazi Nazrul Islam Ave, Dhaka</p>
-                        <p><i class="fas fa-phone-alt me-2"></i> 09678 111 222</p>
-                        <p><i class="fas fa-envelope me-2"></i> support@startech.com.bd</p>
-                    </address>
-                    <div class="social-icons">
-                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr class="my-4 bg-secondary">
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="mb-0 text-white-50">© 2025 StarTech.com Ltd. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <img src="https://www.startech.com.bd/image/catalog/payment-method.png" alt="Payment Methods"
-                        class="img-fluid" style="height: 30px;">
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!--footer section -->
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
