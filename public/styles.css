@@ -1,3 +1,6 @@
+html, body {
+    height: 100%;
+}
 /* Custom styles */
 .top-header {
     background-color: #f5f5f5;
@@ -28,4 +31,5 @@
 .footer {
     background-color: #01132D;
     color: #ffffff;
+    width: 100%;
 }

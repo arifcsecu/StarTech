@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -21,14 +21,17 @@
 
 
 
-<body>
+<body class="d-flex flex-column h-100">
     <!-- Main Header with Logo and Search -->
     @include('partials.header')
 
     <!-- Category Navigation -->
     @include('partials.navbar')
 
-    @yield('home')
+    <!-- Main Content -->
+    <main class="flex-shrink-0">
+        @yield('home')
+    </main>
 
     <!--footer section -->
     @include('partials.footer')

@@ -3,6 +3,7 @@
 @section('title', 'Star-Tech')
 
 @section('home')
+    <div class="container">@livewire('counter')</div>
 
     <div class="container">
         <h3>Leading Computer, Laptop & Gaming PC Retail & Online Shop in Bangladesh</h3>

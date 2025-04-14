@@ -1,4 +1,4 @@
-<footer class="footer pt-5 pb-3">
+<footer class="footer pt-5 pb-3 mt-auto"> <!-- Added mt-auto and bg-dark -->
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
