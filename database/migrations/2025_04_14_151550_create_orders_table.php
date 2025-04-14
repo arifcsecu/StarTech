@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id')->nullable();
+            $table->enum('status', ['pending', 'processing', 'shipped', 'delivered', 'cancelled'])->default('pending');
+            $table->decimal('total_price', 10, 2);
+            $table->enum('payment_status', ['pending', 'completed', 'failed'])->default('pending');
+            $table->enum('payment_method', ['credit_card', 'paypal', 'bank_transfer'])->default('credit_card');
+            $table->string('shipping_address');
+
             $table->timestamps();
         });
     }
