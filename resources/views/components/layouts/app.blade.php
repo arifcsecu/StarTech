@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ $title ?? 'Star-Tech' }}</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for icons -->
 
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Custom CSS -->
     <link href="{{ asset('styles.css') }}" rel="stylesheet">
 
     @livewireStyles
-
 </head>
 
 
 
 <body>
     <!-- Main Header with Logo and Search -->
-    @include('header')
+    @include('partials.header')
 
     <!-- Category Navigation -->
-    @include('navbar')
+    @include('partials.navbar')
 
     @yield('home')
 
     <!--footer section -->
-    @include('footer')
+    @include('partials.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -56,8 +56,6 @@
         updateCountdown();
     </script>
     @livewireScripts
-
-
 </body>
 
 </html>
