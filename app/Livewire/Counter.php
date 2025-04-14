@@ -4,6 +4,8 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
+// created for practice
+
 class Counter extends Component
 {
     public $count = 0;
@@ -23,3 +25,5 @@ class Counter extends Component
         return view('livewire.counter');
     }
 }
+
+
