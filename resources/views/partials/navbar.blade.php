@@ -33,15 +33,24 @@
 
                 <div x-data="{ subOpen: false }" class="position-relative" @mouseenter="subOpen = true"
                     @mouseleave="subOpen = false">
-                    <a href="#" class="d-block text-dark text-decoration-none py-1 pe-4">
-                        Gaming Laptop ▶
+                    <a href="#"
+                        class="d-flex justify-content-between align-items-center text-dark text-decoration-none py-1">
+                        Gaming Laptop
+                        <span class="ms-2">▶</span>
                     </a>
 
                     <!-- Sub-subcategory -->
                     <div x-show="subOpen" x-transition class="position-absolute bg-white shadow rounded p-2"
                         style="top: 0; left: 100%; min-width: 200px; z-index: 1060;">
-                        <a href="#" class="d-block text-dark text-decoration-none py-1">Entry-Level Gaming</a>
-                        <a href="#" class="d-block text-dark text-decoration-none py-1">High-End Gaming</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Lenovo</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Asus</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Acer</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">MSI</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Dell</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">HP</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Apple</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Microsoft</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Toshiba</a>
                     </div>
                 </div>
 
@@ -57,8 +66,13 @@
                     <!-- Sub-subcategory -->
                     <div x-show="subOpen" x-transition class="position-absolute bg-white shadow rounded p-2"
                         style="top: 0; left: 100%; min-width: 200px; z-index: 1060;">
-                        <a href="#" class="d-block text-dark text-decoration-none py-1">Entry-Level Gaming</a>
-                        <a href="#" class="d-block text-dark text-decoration-none py-1">High-End Gaming</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Asus</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Acer</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">HP</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Microsoft</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Dell</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">Lenovo</a>
+                        <a href="#" class="d-block text-dark text-decoration-none py-1">MSI</a>                       
                     </div>
                 </div>
 

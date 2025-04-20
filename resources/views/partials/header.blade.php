@@ -3,8 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-4 col-6">
                 <a href="/">
-                    <img src="https://www.startech.com.bd/image/catalog/logo.png" alt="StarTech Logo"
-                        class="img-fluid">
+                    <img src="https://www.startech.com.bd/image/catalog/logo.png" alt="StarTech Logo" class="img-fluid">
                 </a>
             </div>
 
