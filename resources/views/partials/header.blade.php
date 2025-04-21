@@ -25,16 +25,16 @@
             <div class="flex-shrink-0">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="/offers" class="nav-link px-2">Offers</a>
+                        <a href="/offers" class="nav-link px-2 text-white">Offers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/happy-hour" class="nav-link px-2">Happy Hour</a>
+                        <a href="/happy-hour" class="nav-link px-2 text-white">Happy Hour</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/account" class="nav-link px-2">Account</a>
+                        <a href="/account" class="nav-link px-2 text-white">Account</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/pc-builder" class="nav-link px-2">PC Builder</a>
+                        <a href="/pc-builder" class="nav-link px-2 text-white">PC Builder</a>
                     </li>
                 </ul>
             </div>
