@@ -2,7 +2,7 @@
     <div class="container">
 
         <button class = "navbar-toggler" 
-                type = "button" 
+                type = "button"
                 data-bs-toggle = "collapse"
                 data-bs-target = "#navbarCategories"
                 aria-controls = "navbarCategories" 
