@@ -18,7 +18,10 @@
         "lightningcss-linux-x64-gnu": "^1.29.1"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^1.2.0",
+        "sass": "^1.56.1",
         "vite": "^6.2.6"
     }
 }

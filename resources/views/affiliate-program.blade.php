@@ -2,7 +2,7 @@
 
 @section('title', 'Affiliate Marketing in Bangladesh')
 
-@section('affiliate-program')
+@section('content')
 
 <div class="container">
     <h3 class="text-center"> Star Tech Ltd. - Affiliate Marketing Program </h3>

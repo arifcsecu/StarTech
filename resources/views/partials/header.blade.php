@@ -2,7 +2,7 @@
     <div class="container">
         <!-- flex row that won't wrap -->
         <div class="d-flex align-items-center flex-nowrap">
-
+            
             <!-- Logo (fixed size) -->
             <div class="flex-shrink-0 me-3">
                 <a href="/">
@@ -31,13 +31,14 @@
                         <a href="/happy-hour" class="nav-link px-2 text-white">Happy Hour</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/account" class="nav-link px-2 text-white">Account</a>
+                        <a href="/login" class="nav-link px-2 text-white">Account</a>
                     </li>
                     <li class="nav-item">
                         <a href="/pc-builder" class="nav-link px-2 text-white">PC Builder</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </div>
-</header>
+</header> 
