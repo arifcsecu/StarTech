@@ -36,6 +36,8 @@
         @yield('content')
     </main>
 
+    @include('partials.floating-sidebar')
+
     <!--footer section -->
     @include('partials.footer')
 
