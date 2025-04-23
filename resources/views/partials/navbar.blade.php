@@ -76,7 +76,7 @@
                             <a href="#"
                                 class="d-flex justify-content-between align-items-center text-dark text-decoration-none py-1">
                                 Premium Ultrabook
-                                <span class="ms-2">▶</span>
+                                <span class="ms-2"> ▶ </span>
                             </a>
 
                             <!-- Sub-subcategory -->

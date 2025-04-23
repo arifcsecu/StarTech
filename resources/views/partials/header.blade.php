@@ -2,7 +2,7 @@
     <div class="container">
         <!-- flex row that won't wrap -->
         <div class="d-flex align-items-center flex-nowrap">
-            
+
             <!-- Logo (fixed size) -->
             <div class="flex-shrink-0 me-3">
                 <a href="/">
@@ -24,21 +24,75 @@
             <!-- 4‑item menu (fixed size) -->
             <div class="flex-shrink-0">
                 <ul class="nav">
-                    <li class="nav-item">
-                        <a href="/offers" class="nav-link px-2 text-white">Offers</a>
+                    <!-- <li class="nav-item">
+                        <div class="text-start container">
+                            <a href="/happy-hour" class="d-block fw-semibold text-decoration-none text-white">Offers</a>
+                            <p class="text-muted small mb-0">Special Deals</p>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a href="/happy-hour" class="nav-link px-2 text-white">Happy Hour</a>
+                        <div class="text-start container">
+                            <a href="/happy-hour" class="d-block fw-semibold text-decoration-none text-white">Happy Hour</a>
+                            <p class="text-muted small mb-0">Specials Deals</p>
+                        </div>                       
                     </li>
                     <li class="nav-item">
-                        <a href="/login" class="nav-link px-2 text-white">Account</a>
-                    </li>
+                        <div class="text-start container">
+                            <a href="/happy-hour" class="d-block fw-semibold text-decoration-none text-white">Account</a>
+                            <p class="text-muted small mb-0">Register or Login</p>
+                        </div>                        
+                    </li>            
                     <li class="nav-item">
-                        <a href="/pc-builder" class="nav-link px-2 text-white">PC Builder</a>
-                    </li>
-                </ul>
+                        <a href="/pc-builder" class="btn fw-bold text-white px-4 py-2 rounded"
+                           style="background: linear-gradient(135deg, #00BFFF, #1E90FF); border: none;">
+                          PC Builder
+                        </a>
+                      </li>
+                </ul> -->
+                    <ul class="nav gap-4 align-items-center">
+                        <!-- Offers -->
+                        <li class="nav-item">
+                            <a href="/offers" class="d-flex align-items-start text-white text-decoration-none">
+                                <i class="bi bi-bag-fill fs-4 me-2" style="color: #EF4A23;"></i>
+                                <div class="lh-sm">
+                                    <div class="fw-semibold">Offers</div>
+                                    <small class="text-white-50">Latest Offers</small>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Happy Hour -->
+                        <li class="nav-item">
+                            <a href="/happy-hour" class="d-flex align-items-start text-white text-decoration-none">
+                                <i class="bi bi-lightning-fill fs-4 me-2" style="color: #EF4A23;"></i>
+                                <div class="lh-sm">
+                                    <div class="fw-semibold">Happy Hour</div>
+                                    <small class="text-white-50">Special Deals</small>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Account -->
+                        <li class="nav-item">
+                            <a href="/account" class="d-flex align-items-start text-white text-decoration-none">
+                                <i class="bi bi-person-fill fs-4 me-2" style="color: #EF4A23;"></i>
+                                <div class="lh-sm">
+                                    <div class="fw-semibold">Account</div>
+                                    <small class="text-white-50">Register or Login</small>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- PC Builder -->
+                        <li class="nav-item text-center">
+                            <a href="/pc-builder" class="btn fw-bold text-white px-4 py-2 rounded"
+                                style="background: linear-gradient(135deg, #00BFFF, #1E90FF); border: none;">
+                                PC Builder
+                            </a>
+                        </li>
+                    </ul>
             </div>
 
         </div>
     </div>
-</header> 
+</header>

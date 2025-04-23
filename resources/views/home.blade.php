@@ -8,7 +8,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Leading Computer, Laptop & Gaming PC Retail & Online Shop in Bangladesh</h3>
-    <p>Technology has become a part of our daily lives, and we depend on tech products daily for a vast portion of our
+    <p> Technology has become a part of our daily lives, and we depend on tech products daily for a vast portion of our
         lives. There is hardly a home in Bangladesh without a tech product. This is where we come in. Star Tech Ltd.
         started as a Tech Product Shop in March 2007. We focus on giving the best customer service in Bangladesh,
         following our motto of “Customer Comes First.” This is why Star Tech is the most trusted computer shop in
@@ -22,7 +22,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Best Laptop Shop in Bangladesh</h3>
-    <p>Star Tech is the most popular Laptop Brand Shop in BD. Star Tech Laptop Shop has the perfect device, whether you
+    <p> Star Tech is the most popular Laptop Brand Shop in BD. Star Tech Laptop Shop has the perfect device, whether you
         are a freelancer, officegoer, or student. Gamers love our collection of Gaming Laptops because we always bring
         the latest laptops in Bangladesh. As the best laptop shop in BD, a customer's budget is our first concern. We
         bring the latest Intel Laptop and AMD Laptop under budget for every customer - from starters to expert users.
@@ -36,7 +36,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Best Desktop PC Shop In Bangladesh</h3>
-    <p>Star Tech has the most comprehensive array of Desktop PCs. We offer top-of-the-line Custom PC, Brand PC,
+    <p> Star Tech has the most comprehensive array of Desktop PCs. We offer top-of-the-line Custom PC, Brand PC,
         All-in-One PC, and Portable Mini PC at Star Tech outlets, the trusted and most popular Desktop PC shop in
         Bangladesh, which are spread nationwide. Get your new iMac Desktop or Apple Mac Mini with an international
         warranty and servicing plan. You can always depend on the Star Tech PC shop experts to build the best desktop PC
@@ -50,7 +50,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Best Gaming PC Shop In Bangladesh</h3>
-    <p>We at Star Tech love gaming. Therefore, we aim to provide a holistic gaming experience with our best gaming PC
+    <p> We at Star Tech love gaming. Therefore, we aim to provide a holistic gaming experience with our best gaming PC
         shop in Bangladesh, “Star Tech Rig House.” The Rig House is a specialized shop for PC builds with high-end PC
         components. Star Tech Rig House is highly decorated with the best gaming PC parts for customers to build online
         Gaming or editing PC. Our gaming PC shop in Bangladesh offers the broadest range of Gaming PC, Gaming Laptops,
@@ -75,7 +75,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Largest Gadget Shop In Bangladesh</h3>
-    <p>We bring in the most sought gadgets at Star Tech. Only genuine and leading brands of Smart Watch, Earbuds, TV,
+    <p> We bring in the most sought gadgets at Star Tech. Only genuine and leading brands of Smart Watch, Earbuds, TV,
         Power Bank, and Mobile Phone Accessories are available at our Gadget Shop. We are also concerned for creative
         professionals for whom we bring exciting gadgets like Drones, Studio Equipment, DSLR Camera, Gimbals & Stream
         Decks from internationally reputed brands like DJI, Blackmagic, Corsair, Zhiyun, Gudsen, and Loupedeck. Star
@@ -86,7 +86,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Top Mobile Shop in Bangladesh</h3>
-    <p>Star Tech mobile phone shop offers the latest smartphones and feature phones from top mobile brands. Samsung,
+    <p> Star Tech mobile phone shop offers the latest smartphones and feature phones from top mobile brands. Samsung,
         Motorola, Google Pixel, Vivo, Huawei, Xiaomi, OPPO, Mi, Realme, and OnePlus are among the Android smartphone
         brands at our mobile shop. Star Tech is a one-stop solution for buying iPhones in Bangladesh. Offering extensive
         warranty, EMI & home delivery service spanning the country, we are the top mobile shop in Bangladesh, presenting
@@ -97,7 +97,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Best Home Appliance Shop in Bangladesh</h3>
-    <p>Star Tech is a popular home appliance shop in Bangladesh with a variety of top-quality home appliances including
+    <p> Star Tech is a popular home appliance shop in Bangladesh with a variety of top-quality home appliances including
         air conditioners, washing machines, ovens, refrigerators, geysers, vacuum cleaners, sewing machines, electric
         room heaters, and more. Star Tech offers home appliances from renowned brands like Samsung, LG, Hitachi,
         Whirlpool, Singer, Haier, Walton, and so on. To assist customers in selecting the appropriate air conditioner,
@@ -108,7 +108,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Trusted Online Shopping From Bangladesh at The Best E-Commerce Website</h3>
-    <p>Star Tech believes the most in customer satisfaction. To meet the surging demand for online shopping from
+    <p> Star Tech believes the most in customer satisfaction. To meet the surging demand for online shopping from
         Bangladesh, we launched our E-Commerce website. our highly trusted online shop has been regarded as one of the
         best E-Commerce websites with most visits. Star Tech is revolutionizing online shopping in Bangladesh, featuring
         a brilliant search engine that helps our valued customers find their desired products easily. We have developed
@@ -123,7 +123,7 @@
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Best Price, Product, After-sales Customer Service, & Fastest Delivery</h3>
-    <p>Star Tech Ltd. has taken care of its customers since the beginning. Whether a customer is purchasing or
+    <p> Star Tech Ltd. has taken care of its customers since the beginning. Whether a customer is purchasing or
         inquiring, our customers get the highest priority. We deliver the best product for the best price with extended
         after-sales support & the highest standard of customer service. We offer your desired product within the fastest
         delivery timeframe. With our nationwide presence, we cover all 64 districts of Bangladesh. Our distribution hubs
@@ -131,4 +131,5 @@
         dedicated service centers and are proud to offer computer home service for the first time in Bangladesh. The
         plan to expand our operations in other cities is already in motion.</p>
 </div>
+
 @endsection
