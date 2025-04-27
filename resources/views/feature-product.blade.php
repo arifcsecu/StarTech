@@ -1,127 +1,34 @@
-<div class="container my-5">
-    <div class="text-center mb-4">
-        <h3 class="fw-bold">Featured Products</h3>
-        <p class="text-muted">Check & Get Your Desired Product!</p>
-    </div>
+<div class="container">
+    <div class="row">
+        @foreach ($products as $product)
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="card position-relative h-100 shadow-sm rounded-3">
 
-    <div class="row g-4">
-        <!-- Single Product Card -->
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="position-relative bg-white rounded-3 shadow-sm h-100 p-3 d-flex flex-column">
-                <!-- Discount Ribbon -->
-                <div class="position-absolute top-0 start-0 bg-purple-600 text-white small px-2 py-1 rounded-bottom-end" style="font-size: 12px; background-color: #6f42c1;">
-                    Save: 9,000৳ (-17%)
-                </div>
+                    <!-- Save Badge -->
+                    @if ($product->discount_price)
+                        <div class="position-absolute top-0 start-0 m-2 p-1 bg-purple text-white small rounded">
+                            Save: {{ number_format($product->price - $product->discount_price) }}৳ 
+                            ({{ round((($product->price - $product->discount_price) / $product->price) * 100) }}%)
+                        </div>
+                    @endif
 
-                <!-- Product Image -->
-                <img src="https://i.ibb.co/4Z1g5bs/ac.jpg" alt="AC" class="img-fluid mb-3" style="height: 140px; object-fit: contain;">
+                    <!-- Product Image -->
+                    <img src="{{ asset('storage/' . $product->image) }}" class="card-img-top p-3" alt="{{ $product->name }}" style="height: 150px; object-fit: contain;">
 
-                <!-- Product Name -->
-                <div class="flex-grow-1 text-center">
-                    <h6 class="fw-semibold mb-2">Gree 1 Ton Muse-Split Non-Inverter AC</h6>
-                </div>
+                    <!-- Product Details -->
+                    <div class="card-body text-center p-2">
+                        <h6 class="card-title small">{{ $product->name }}</h6>
 
-                <!-- Price Section -->
-                <div class="text-center mt-auto">
-                    <span class="fw-bold text-danger">43,000৳</span>
-                    <small class="text-muted text-decoration-line-through ms-1">52,000৳</small>
-                </div>
-            </div>
-        </div>
+                        <div class="mt-2">
+                            <span class="fw-bold text-danger">{{ number_format($product->discount_price ?? $product->price) }}৳</span>
+                            @if ($product->discount_price)
+                                <small class="text-muted text-decoration-line-through ms-2">{{ number_format($product->price) }}৳</small>
+                            @endif
+                        </div>
+                    </div>
 
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="position-relative bg-white rounded-3 shadow-sm h-100 p-3 d-flex flex-column">
-                <!-- Discount Ribbon -->
-                <div class="position-absolute top-0 start-0 bg-purple-600 text-white small px-2 py-1 rounded-bottom-end" style="font-size: 12px; background-color: #6f42c1;">
-                    Save: 9,000৳ (-17%)
-                </div>
-
-                <!-- Product Image -->
-                <img src="https://i.ibb.co/4Z1g5bs/ac.jpg" alt="AC" class="img-fluid mb-3" style="height: 140px; object-fit: contain;">
-
-                <!-- Product Name -->
-                <div class="flex-grow-1 text-center">
-                    <h6 class="fw-semibold mb-2">Gree 1 Ton Muse-Split Non-Inverter AC</h6>
-                </div>
-
-                <!-- Price Section -->
-                <div class="text-center mt-auto">
-                    <span class="fw-bold text-danger">43,000৳</span>
-                    <small class="text-muted text-decoration-line-through ms-1">52,000৳</small>
                 </div>
             </div>
-        </div>
-
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="position-relative bg-white rounded-3 shadow-sm h-100 p-3 d-flex flex-column">
-                <!-- Discount Ribbon -->
-                <div class="position-absolute top-0 start-0 bg-purple-600 text-white small px-2 py-1 rounded-bottom-end" style="font-size: 12px; background-color: #6f42c1;">
-                    Save: 9,000৳ (-17%)
-                </div>
-
-                <!-- Product Image -->
-                <img src="https://i.ibb.co/4Z1g5bs/ac.jpg" alt="AC" class="img-fluid mb-3" style="height: 140px; object-fit: contain;">
-
-                <!-- Product Name -->
-                <div class="flex-grow-1 text-center">
-                    <h6 class="fw-semibold mb-2">Gree 1 Ton Muse-Split Non-Inverter AC</h6>
-                </div>
-
-                <!-- Price Section -->
-                <div class="text-center mt-auto">
-                    <span class="fw-bold text-danger">43,000৳</span>
-                    <small class="text-muted text-decoration-line-through ms-1">52,000৳</small>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="position-relative bg-white rounded-3 shadow-sm h-100 p-3 d-flex flex-column">
-                <!-- Discount Ribbon -->
-                <div class="position-absolute top-0 start-0 bg-purple-600 text-white small px-2 py-1 rounded-bottom-end" style="font-size: 12px; background-color: #6f42c1;">
-                    Save: 9,000৳ (-17%)
-                </div>
-
-                <!-- Product Image -->
-                <img src="https://i.ibb.co/4Z1g5bs/ac.jpg" alt="AC" class="img-fluid mb-3" style="height: 140px; object-fit: contain;">
-
-                <!-- Product Name -->
-                <div class="flex-grow-1 text-center">
-                    <h6 class="fw-semibold mb-2">Gree 1 Ton Muse-Split Non-Inverter AC</h6>
-                </div>
-
-                <!-- Price Section -->
-                <div class="text-center mt-auto">
-                    <span class="fw-bold text-danger">43,000৳</span>
-                    <small class="text-muted text-decoration-line-through ms-1">52,000৳</small>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="position-relative bg-white rounded-3 shadow-sm h-100 p-3 d-flex flex-column">
-                <!-- Discount Ribbon -->
-                <div class="position-absolute top-0 start-0 bg-purple-600 text-white small px-2 py-1 rounded-bottom-end" style="font-size: 12px; background-color: #6f42c1;">
-                    Save: 9,000৳ (-17%)
-                </div>
-
-                <!-- Product Image -->
-                <img src="https://i.ibb.co/4Z1g5bs/ac.jpg" alt="AC" class="img-fluid mb-3" style="height: 140px; object-fit: contain;">
-
-                <!-- Product Name -->
-                <div class="flex-grow-1 text-center">
-                    <h6 class="fw-semibold mb-2">Gree 1 Ton Muse-Split Non-Inverter AC</h6>
-                </div>
-
-                <!-- Price Section -->
-                <div class="text-center mt-auto">
-                    <span class="fw-bold text-danger">43,000৳</span>
-                    <small class="text-muted text-decoration-line-through ms-1">52,000৳</small>
-                </div>
-            </div>
-        </div>
-
-
-
+        @endforeach
     </div>
 </div>

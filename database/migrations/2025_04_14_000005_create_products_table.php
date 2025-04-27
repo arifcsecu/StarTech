@@ -14,16 +14,10 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('description')->nullable();
-            $table->decimal('price', 10, 2);
-            $table->integer('stock')->default(0);
-            $table->foreignId('brand_id')->constrained();
-            $table->foreignId('category_id')->constrained();
-            $table->string('model')->nullable();;
-            $table->decimal('discount_price', 10, 2)->nullable();
-            $table->string('warranty')->nullable();
-            $table->boolean('featured')->default(false);
             $table->string('slug')->unique();
+            $table->decimal('price', 10, 2);
+            $table->string('image')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
