@@ -43,3 +43,28 @@ a:hover {
 a {
     color: #EF4A23;   /* teal */
 }
+
+
+/* responsiveness */
+
+
+@media (max-width: 1200px) {
+    #featured-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media (max-width: 992px) {
+    #featured-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    #featured-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 576px) {
+    #featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
