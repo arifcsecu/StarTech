@@ -1,10 +1,10 @@
 
 <div class="container my-5">
     <div class="row g-4">
-        <!-- Feature Item 1 -->
+        <!-- Laptop Finder -->
         <div class="col-12 col-md-6 col-lg-3">
             <div class="d-flex align-items-center p-3 bg-white shadow-sm rounded-3 h-100">
-                <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; background-color: #ef4a23;">
                     <i class="fas fa-laptop text-white"></i>
                 </div>
                 <div class="ms-3">
@@ -14,10 +14,10 @@
             </div>
         </div>
 
-        <!-- Feature Item 2 -->
+        <!-- Raise a Complain -->
         <div class="col-12 col-md-6 col-lg-3">
             <div class="d-flex align-items-center p-3 bg-white shadow-sm rounded-3 h-100">
-                <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style=" background-color: #ef4a23; width: 50px; height: 50px;">
                     <i class="fas fa-exclamation-triangle text-white"></i>
                 </div>
                 <div class="ms-3">
@@ -27,10 +27,10 @@
             </div>
         </div>
 
-        <!-- Feature Item 3 -->
+        <!-- Home Service -->
         <div class="col-12 col-md-6 col-lg-3">
             <div class="d-flex align-items-center p-3 bg-white shadow-sm rounded-3 h-100">
-                <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="background-color: #ef4a23; width: 50px; height: 50px;">
                     <i class="fas fa-question-circle text-white"></i>
                 </div>
                 <div class="ms-3">
@@ -40,10 +40,10 @@
             </div>
         </div>
 
-        <!-- Feature Item 4 -->
+        <!-- Service Center -->
         <div class="col-12 col-md-6 col-lg-3">
             <div class="d-flex align-items-center p-3 bg-white shadow-sm rounded-3 h-100">
-                <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="background-color: #ef4a23; width: 50px; height: 50px;">
                     <i class="fas fa-tools text-white"></i>
                 </div>
                 <div class="ms-3">
@@ -52,6 +52,5 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>

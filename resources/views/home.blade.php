@@ -8,6 +8,12 @@
 
 <div class="container my-5">
     <div class="row g-4">
+        @include('home-special.carousel-slide')
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row g-4">
         @include('home-special.service-features')
     </div>
 </div>

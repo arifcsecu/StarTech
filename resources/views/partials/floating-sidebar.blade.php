@@ -6,7 +6,7 @@
             <i class="bi bi-plus-square-fill fs-5"></i>
             <small class="text-white-50 fw-semibold" style="font-size: 10px;">COMPARE</small>
         </a>
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="background-color: #ef4a23;">
             0
         </span>
     </div>
@@ -17,7 +17,7 @@
             <i class="bi bi-bag-fill fs-5"></i>
             <small class="text-white-50 fw-semibold" style="font-size: 10px;">CART</small>
         </a>
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style=" background-color: #ef4a23;">
             0
         </span>
     </div>
