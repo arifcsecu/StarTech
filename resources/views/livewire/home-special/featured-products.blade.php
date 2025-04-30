@@ -1,5 +1,5 @@
-<section class="py-5 bg-light">
-    <div class="container">
+<section class="container-lg">
+    <div class="py-5 bg-light">
       <!-- Header -->
       <h2 class="text-center fw-bold mb-1">Featured Products</h2>
       <p class="text-center text-muted mb-4">Check & Get Your Desired Product!</p>

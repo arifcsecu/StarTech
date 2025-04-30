@@ -1,5 +1,5 @@
 <header class="main-header py-4">
-    <div class="container-fluid">
+    <div class="container-lg">
         <!-- flex row that won't wrap -->
         <div class="d-flex align-items-center flex-nowrap">
 

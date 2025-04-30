@@ -1,5 +1,5 @@
 <nav id="catNav" class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
-    <div class="container-fluid">
+    <div class="container-lg">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories"
             aria-controls="navbarCategories" aria-expanded="false" aria-label="Toggle categories">

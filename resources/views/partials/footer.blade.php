@@ -1,5 +1,5 @@
 <footer class="footer text-white-50 pt-5 pb-3 mt-auto">
-    <div class="container-fluid">
+    <div class="container-lg">
         <div class="row gy-4">
             <!-- SUPPORT -->
             <div class="col-lg-3 col-md-6">

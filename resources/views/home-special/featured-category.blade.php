@@ -1,4 +1,4 @@
-<div class="container-fluid my-5">
+<div class="container-lg my-5">
     <div class="text-center mb-4">
         <h3 class="fw-bold">Featured Category</h3>
         <p class="text-muted">Get Your Desired Product from Featured Category!</p>
@@ -103,6 +103,5 @@
             <i class="fas fa-gamepad fa-2x text-secondary mb-2"></i>
             <h6 class="mb-0 small">Gaming Console</h6>
         </div>
-
     </div>
 </div>

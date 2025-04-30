@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-lg">
 
     <div style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
         <h3>Leading Computer, Laptop & Gaming PC Retail & Online Shop in Bangladesh</h3>

@@ -1,5 +1,5 @@
 <section class="mt-4">
-  <div class="container-fluid">
+  <div class="container-lg">
     <div class="row g-4">
       <!-- LEFT: Hero Carousel -->
       <div class="col-lg-9">

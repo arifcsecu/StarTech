@@ -1,5 +1,5 @@
-<section class="physical-stores-banner text-white py-4 px-3 mx-3">
-    <div class="container-fluid">
+<section class="container-lg">
+    <div class="physical-stores-banner text-white py-4 px-3">
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
             <!-- Left: Icon + Text -->
             <div class="d-flex align-items-center mb-3 mb-md-0">
@@ -9,7 +9,7 @@
                     <p class="mb-0">Visit Our Store & Get Your Desired IT Product!</p>
                 </div>
             </div>
-    
+
             <!-- Right: Call-to-action -->
             <a href="/stores"
                 class="btn btn-lg btn-warning d-flex align-items-center px-4 py-2 text-dark fw-semibold shadow-sm rounded-5">

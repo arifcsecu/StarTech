@@ -4,6 +4,7 @@
 
 @section('content')
 
+
     @livewire('hero-banner')
 
     @include('home-special.carousel-slide')
@@ -17,5 +18,6 @@
     @livewire('featured-products')
 
     @include('home-special.article')
+
 
 @endsection
