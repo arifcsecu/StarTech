@@ -10,7 +10,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active h-100">
               <img
-                src="{{ asset('images/hero/slide1.jpg') }}"
+                src="{{ asset('images/hero/slide3.jpg') }}"
                 class="d-block w-100 h-100"
                 style="object-fit: cover;"
                 alt="Slide 1">
@@ -26,7 +26,7 @@
             <!-- Slide 3 -->
             <div class="carousel-item h-100">
               <img
-                src="{{ asset('images/hero/slide3.jpg') }}"
+                src="{{ asset('images/hero/slide1.jpg') }}"
                 class="d-block w-100 h-100"
                 style="object-fit: cover;"
                 alt="Slide 3">

@@ -22,11 +22,8 @@
         @include('home-special.featured-category')
     </div>
 </div>
-<div class="container my-5">
-    <div class="row g-4">
-        @include('feature-product')
-    </div>
-</div>
+
+<div class="container">@livewire('featured-products')</div>
 
 <div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
     <h3>Leading Computer, Laptop & Gaming PC Retail & Online Shop in Bangladesh</h3>

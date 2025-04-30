@@ -1,20 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
+<!-- <nav class="navbar navbar-light bg-white border-bottom py-2"> -->
+<nav id = "catNav" class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
     <div class="container">
 
-        <button class = "navbar-toggler" 
-                type = "button"
-                data-bs-toggle = "collapse"
-                data-bs-target = "#navbarCategories"
-                aria-controls = "navbarCategories" 
-                aria-expanded = "false" 
-                aria-label = "Toggle categories"
-            >
-            <span class = "navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories"
+            aria-controls="navbarCategories" aria-expanded="false" aria-label="Toggle categories">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCategories">
             <div class="d-flex flex-wrap justify-content-start gap-1">
-                
+
                 <div x-data="{ open: false }" class="position-relative" @mouseenter="open = true"
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Desktop</a>
@@ -500,3 +495,18 @@
 
 <!-- <div x-data="{ open: false }" …>…</div>
 <div x-data="{ open: false }" …>…</div> -->
+
+<script>
+    const nav = document.getElementById('catNav');
+    const offset = nav.offsetTop;
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > offset) {
+        nav.classList.add('fixed-top', 'shadow-sm');
+        document.body.style.paddingTop = nav.offsetHeight + 'px';
+      } else {
+        nav.classList.remove('fixed-top', 'shadow-sm');
+        document.body.style.paddingTop = 0;
+      }
+    });
+</script>
+  

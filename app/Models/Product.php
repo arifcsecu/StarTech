@@ -10,7 +10,9 @@ class Product extends Model
         'name',
         'slug',
         'price',
+        'discount_price',
         'image',
         'description',
+        'is_featured',
     ];
-}   
+}
