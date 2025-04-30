@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white-50 pt-5 pb-3 mt-auto">
+<footer class="footer text-white-50 pt-5 pb-3 mt-auto">
     <div class="container-fluid">
         <div class="row gy-4">
             <!-- SUPPORT -->
