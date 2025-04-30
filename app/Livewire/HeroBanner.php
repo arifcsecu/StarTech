@@ -8,6 +8,6 @@ class HeroBanner extends Component
 {
     public function render()
     {
-        return view('livewire.hero-banner');
+        return view('livewire.home-special.hero-banner');
     }
 }

@@ -16,6 +16,6 @@ class FeaturedProducts extends Component
                            ->latest()
                            ->paginate(10);
 
-        return view('livewire.featured-products', compact('products'));
+        return view('livewire.home-special.featured-products', compact('products'));
     }
 }

@@ -4,158 +4,174 @@
 
 @section('content')
 
-<div class="container">
-    <h3 class="text-center"> Star Tech Ltd. - Affiliate Marketing Program </h3>
-</div>
+<div class="container-fluid px-4">
 
-<div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
-    <p> Star Tech Ltd., the leading E-commerce platform in Bangladesh, now lets users earn commission on sales from its
-        website. If you're a content producer, tech nerd, freelancer, or influencer in Bangladesh, you can earn a hefty
-        commission from referring products already available on startech.com.bd. With an amplitude of tech products,
-        gadgets, and lifestyle items to promote, unlock a limitless earning potential from the most prominent tech
-        retailer in the nation. Join the affiliate program at Star Tech to get started now! </p>
-</div>
+    <div>
+        <h3 class="text-center"> Star Tech Ltd. - Affiliate Marketing Program </h3>
+        <p style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
+            Star Tech Ltd., the
+            leading E-commerce platform in Bangladesh, now lets users earn commission on sales from its
+            website. If you're a content producer, tech nerd, freelancer, or influencer in Bangladesh, you can earn a
+            hefty
+            commission from referring products already available on startech.com.bd. With an amplitude of tech products,
+            gadgets, and lifestyle items to promote, unlock a limitless earning potential from the most prominent tech
+            retailer in the nation. Join the affiliate program at Star Tech to get started now! </p>
+    </div>
 
-<div class="container">
-    <h3>What is Star Tech Affiliate Marketing?</h3>
-</div>
+    <div>
+        <h3>What is Star Tech Affiliate Marketing?</h3>
+        <p> Star Tech Affiliate Program is an affiliate marketing initiative designed to promote and boost sales of
+            products
+            on startech.com.bd. Through this program, individuals can collaborate with Star Tech and earn commission by
+            referring customers. The program is a simple and effective way for individuals and businesses to monetize
+            their
+            online presence while helping Star Tech expand its customer base. </p>
+    </div>
 
-<div class="container">
-    <p> Star Tech Affiliate Program is an affiliate marketing initiative designed to promote and boost sales of products
-        on startech.com.bd. Through this program, individuals can collaborate with Star Tech and earn commission by
-        referring customers. The program is a simple and effective way for individuals and businesses to monetize their
-        online presence while helping Star Tech expand its customer base. </p>
-</div>
+    <div>
+        <h6> How does it work? </h6>
+        <p> Star Tech affiliate marketing in Bangladesh works by rewarding affiliates with a lucrative commission for
+            each
+            sale from the Star Tech E-Commerce platform. Interested parties can earn by registering with Star Tech and
+            referring affiliate links to the customer. As an affiliate of startech.com.bd, you will receive a unique
+            tracking link or code to share with your audience through various channels such as websites, blogs, social
+            media, or email marketing.</p>
+    </div>
 
-<div class="container">
-    <h6> How does it work? </h6>
-</div>
-<div class="container">
-    <p> Star Tech affiliate marketing in Bangladesh works by rewarding affiliates with a lucrative commission for each
-        sale from the Star Tech E-Commerce platform. Interested parties can earn by registering with Star Tech and
-        referring affiliate links to the customer. As an affiliate of startech.com.bd, you will receive a unique
-        tracking link or code to share with your audience through various channels such as websites, blogs, social
-        media, or email marketing.</p>
-</div>
+    <div>
+        <h3> How To Earn Through Star Tech Affiliate Program? </h3>
 
-<div class="container">
-    <h3> How To Earn Through Star Tech Affiliate Program? </h3>
-</div>
-<div class="container">
-    <p> By completing four (04) simple steps, anyone can become a Star Tech Affiliate and earn through the affiliate
-        program. The steps are as follows-</p>
-</div>
+        <p> By completing four (04) simple steps, anyone can become a Star Tech Affiliate and earn through the affiliate
+            program. The steps are as follows-</p>
+    </div>
 
-<div class="container">
-    <ul style="font-weight: bold">
-        <li>Registering as a Star Tech Affiliate,</li>
-        <li>Generating affiliate tracking links</li>
-        <li>Promoting your affiliate link,</li>
-        <li>Withdrawing payout.</li>
-    </ul>
-</div>
-
-<div class="container">
-    <h3> How to Register as a Star Tech Affiliate? </h3>
-</div>
-<div class="container">
-    <p> To register as a Star Tech affiliate, follow the link below and fill in the necessary information along with
-        your designated payout method and account password. </p>
-</div>
-
-<div class="container">
-    <h6>Star Tech Affiliate registration link-</h6>
-    <a href="https://startech.com.bd/affiliate-program">https://startech.com.bd/affiliate-program</a>
-</div>
-
-<div class="container">
-    <p>Star Tech affiliate marketing in Bangladesh offers commission withdrawal through two methods-</p>
-    <ul>
-        <li>Cheque</li>
-        <li>bKash</li>
-    </ul>
-</div>
-<div class="container">
-    <p>A confirmation email will be sent promptly after completing the registration process.</p>
-</div>
-
-<div class="container">
-    <h3>How To Generate an Affiliate Tracking Link?</h3>
-    <p>Registered affiliates of Star Tech will be given a link to their account, or you can log in to your Star Tech
-        Affiliate account directly by clicking:</p>
-    <h6>Star Tech Affiliate Account Link:</h6>
-    <a href="https://startech.com.bd/affiliate-program">https://startech.com.bd/affiliate-program</a>
-    <ul>
-        <li>Log into your account interface with your registered email and password and click on the Download
-            Commissioned Product List. The list will help you select your targeted categories with affiliate-eligible
-            product.</li>
-        <li>Click “Custom Affiliate Tracking Code” to input your selected product information.</li>
-        <li>A custom affiliate tracking link will be generated automatically.</li>
-        <li>Copy your affiliate tracking link and start using !</li> <br>
-        <p> You can also see other information from your account, such as accumulated commission, transaction history,
-            change payment method, etc.</p>
-    </ul>
-    <h4>How to Withdraw Payout?</h3>
-        <ul>
-            <li>To withdraw the payout generated by Star Tech affiliate marketing in Bangladesh, affiliate marketers
-                must call the Star Tech hotline (16793) and request a payout.</li>
-            <li>Our agents will verify the request and pay via your designated method.</li>
+    <div>
+        <ul style="font-weight: bold">
+            <li>Registering as a Star Tech Affiliate,</li>
+            <li>Generating affiliate tracking links</li>
+            <li>Promoting your affiliate link,</li>
+            <li>Withdrawing payout.</li>
         </ul>
-</div>
+    </div>
 
-<div class="container">
-    <h3>Benefits Of Joining the Star Tech Affiliate Program</h3>
-    <ul>
-        <li>A generous income through successful referrals.</li>
-        <li>Access to the vastest tech collection to promote.</li>
-        <li>Collaboration with Bangladesh's top e-commerce brand and strengthen your online impact.</li>
-        <li>A seamless and intuitive affiliate platform.</li>
-        <li>Personalized assistance from the affiliate team.</li>
-        <li>Exclusive Offers and Deals: Benefit from regular promotions to maximize earnings.</li>
-    </ul>
-</div>
+    <div>
+        <h3> How to Register as a Star Tech Affiliate? </h3>
 
-<div class="container">
-    <h3 class="text-center">Star Tech Affiliate Program - Terms & Conditions</h3>
-    <p class="text-center" style="font-weight: bold;">Exciting opportunity to earn commissions by selling affiliate
-        products on startech.com.bd</p>
+        <p> To register as a Star Tech affiliate, follow the link below and fill in the necessary information along with
+            your designated payout method and account password. </p>
+    </div>
 
-    <ul style="list-style-type:'> ';">
-        <li> Star Tech Ltd. reserves the right to change the terms and conditions of the affiliate program at any time.
-        </li>
-        <li> Star Tech Ltd. reserves the right to terminate any affiliate account at any time without prior notice.</li>
-        <li> Star Tech Ltd. reserves the right to refuse payment of commission if the affiliate is found to be violating
-            any of the terms and conditions.</li>
-        <li> Star Tech Ltd. reserves the right to change the commission structure at any time without prior notice.</li>
-        <li> Star Tech Ltd. reserves the right to change the payout method at any time without prior notice.</li>
-    </ul>
-</div>
+    <div>
+        <h6>Star Tech Affiliate registration link-</h6>
+        <a href="https://startech.com.bd/affiliate-program">https://startech.com.bd/affiliate-program</a>
+    </div>
 
-<div class="container">
-    <h3 class="text-center">স্টার টেক এফ্লিয়েট প্রোগ্রাম এর শর্তাবলীঃ</h3>
-    <p class="text-center" style="font-weight: bold;">স্টার টেক এর ওয়েবসাইটের প্রোডাক্ট সেল করে এফেলিয়েট কমিশনের মাধ্যমে
-        রয়েছে আয় করার সুবর্ন সুযোগ</p>
+    <div>
+        <p>Star Tech affiliate marketing in Bangladesh offers commission withdrawal through two methods-</p>
+        <ul>
+            <li>Cheque</li>
+            <li>bKash</li>
+        </ul>
+    </div>
+    <div>
+        <p>A confirmation email will be sent promptly after completing the registration process.</p>
+    </div>
 
-    <ul style="list-style-type:'> ';">
-        <li>এফ্লিয়েট লিঙ্কের মাধ্যমে সেল হওয়া প্রোডাক্ট ডেলিভারির ১৫ দিন পর এফ্লিয়েটরের কমিশন এফ্লিয়েট একাউন্টে জমা হবে।</li>
-        <li>এফ্লিয়েট লিঙ্কে ক্লিক এর পর ৭ দিনের মধ্যে কমিশন সহ যেকোনো পণ্য পারচেস হলেই ঐ এফ্লিয়েটর নির্দিষ্ট কমিশন
-            পাবেন। এক্ষেত্রে সর্বশেষ যেই লিংকে ক্লিক হবে সেই লিংকের এফ্লিয়েটর চূড়ান্ত কমিশন পাবেন।</li>
-        <li>সর্বনিম্ন ১০০০ টাকা কমিশন হবার পর কমিশন উঠানো যাবে।</li>
-        <li>এফ্লিয়েট থেকে প্রাপ্ত কমিশন সরাসরি নগদ অর্থ উঠানো যাবে।</li>
-        <li>কমিশনের টাকা উঠাতে চাইলে স্টার টেক হটলাইনে কল করে উইথড্র রিকোয়েস্ট করতে হবে। শীঘ্রই একাউন্টস টিম এফ্লিয়েটরের
-            সাথে যোগাযোগ করে কমিশন পাঠিয়ে দিবেন।</li>
-        <li>কোন এফ্লিয়েট একাউন্ট থেকে যদি একটানা ৩ মাস কোন সেল না হয় তবে ওই একাউন্ট স্বয়ংক্রিয় ভাবে বন্ধ হয়ে যাবে।</li>
-    </ul>
-</div>
+    <div>
+        <h3>How To Generate an Affiliate Tracking Link?</h3>
+        <p>Registered affiliates of Star Tech will be given a link to their account, or you can log in to your Star Tech
+            Affiliate account directly by clicking:</p>
+        <h6>Star Tech Affiliate Account Link:</h6>
+        <a href="https://startech.com.bd/affiliate-program">https://startech.com.bd/affiliate-program</a>
+        <ul>
+            <li>Log into your account interface with your registered email and password and click on the Download
+                Commissioned Product List. The list will help you select your targeted categories with
+                affiliate-eligible
+                product.</li>
+            <li>Click “Custom Affiliate Tracking Code” to input your selected product information.</li>
+            <li>A custom affiliate tracking link will be generated automatically.</li>
+            <li>Copy your affiliate tracking link and start using !</li> <br>
+            <p> You can also see other information from your account, such as accumulated commission, transaction
+                history,
+                change payment method, etc.</p>
+        </ul>
+        <h4>How to Withdraw Payout?</h3>
+            <ul>
+                <li>To withdraw the payout generated by Star Tech affiliate marketing in Bangladesh, affiliate marketers
+                    must call the Star Tech hotline (16793) and request a payout.</li>
+                <li>Our agents will verify the request and pay via your designated method.</li>
+            </ul>
+    </div>
 
-<div class="container" style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
-    <h3>Join Star Tech Affiliate Marketing in Bangladesh Today</h3>
-    <p> Join the most exciting platform for affiliate marketing in Bangladesh today and start earning from Star Tech's
-        most visited online shop with the most extended range of product categories. Our online shop offers the latest
-        and rich-in-feature Mobile phones, PC Components, Laptops, Gadgets, Gaming Accessories, Modern Lifestyle goods,
-        and many more! Star Tech has the most expansive chain of physical store locations, which cover home delivery to
-        every nook and canine in Bangladesh. Join now and become a proud Star Tech affiliate! To learn more, dial the
-        Star Tech hotline at 16793 or visit our stores in Dhaka, Chattogram, Rajshahi, Khulna, Rangpur & Gazipur.</p>
+    <div>
+        <h3>Benefits Of Joining the Star Tech Affiliate Program</h3>
+        <ul>
+            <li>A generous income through successful referrals.</li>
+            <li>Access to the vastest tech collection to promote.</li>
+            <li>Collaboration with Bangladesh's top e-commerce brand and strengthen your online impact.</li>
+            <li>A seamless and intuitive affiliate platform.</li>
+            <li>Personalized assistance from the affiliate team.</li>
+            <li>Exclusive Offers and Deals: Benefit from regular promotions to maximize earnings.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="text-center">Star Tech Affiliate Program - Terms & Conditions</h3>
+        <p class="text-center" style="font-weight: bold;">Exciting opportunity to earn commissions by selling affiliate
+            products on startech.com.bd</p>
+
+        <ul style="list-style-type:'> ';">
+            <li> Star Tech Ltd. reserves the right to change the terms and conditions of the affiliate program at any
+                time.
+            </li>
+            <li> Star Tech Ltd. reserves the right to terminate any affiliate account at any time without prior notice.
+            </li>
+            <li> Star Tech Ltd. reserves the right to refuse payment of commission if the affiliate is found to be
+                violating
+                any of the terms and conditions.</li>
+            <li> Star Tech Ltd. reserves the right to change the commission structure at any time without prior notice.
+            </li>
+            <li> Star Tech Ltd. reserves the right to change the payout method at any time without prior notice.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="text-center">স্টার টেক এফ্লিয়েট প্রোগ্রাম এর শর্তাবলীঃ</h3>
+        <p class="text-center" style="font-weight: bold;">স্টার টেক এর ওয়েবসাইটের প্রোডাক্ট সেল করে এফেলিয়েট কমিশনের
+            মাধ্যমে
+            রয়েছে আয় করার সুবর্ন সুযোগ</p>
+
+        <ul style="list-style-type:'> ';">
+            <li>এফ্লিয়েট লিঙ্কের মাধ্যমে সেল হওয়া প্রোডাক্ট ডেলিভারির ১৫ দিন পর এফ্লিয়েটরের কমিশন এফ্লিয়েট একাউন্টে জমা
+                হবে।</li>
+            <li>এফ্লিয়েট লিঙ্কে ক্লিক এর পর ৭ দিনের মধ্যে কমিশন সহ যেকোনো পণ্য পারচেস হলেই ঐ এফ্লিয়েটর নির্দিষ্ট কমিশন
+                পাবেন। এক্ষেত্রে সর্বশেষ যেই লিংকে ক্লিক হবে সেই লিংকের এফ্লিয়েটর চূড়ান্ত কমিশন পাবেন।</li>
+            <li>সর্বনিম্ন ১০০০ টাকা কমিশন হবার পর কমিশন উঠানো যাবে।</li>
+            <li>এফ্লিয়েট থেকে প্রাপ্ত কমিশন সরাসরি নগদ অর্থ উঠানো যাবে।</li>
+            <li>কমিশনের টাকা উঠাতে চাইলে স্টার টেক হটলাইনে কল করে উইথড্র রিকোয়েস্ট করতে হবে। শীঘ্রই একাউন্টস টিম
+                এফ্লিয়েটরের
+                সাথে যোগাযোগ করে কমিশন পাঠিয়ে দিবেন।</li>
+            <li>কোন এফ্লিয়েট একাউন্ট থেকে যদি একটানা ৩ মাস কোন সেল না হয় তবে ওই একাউন্ট স্বয়ংক্রিয় ভাবে বন্ধ হয়ে যাবে।
+            </li>
+        </ul>
+    </div>
+
+    <div style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6;">
+        <h3>Join Star Tech Affiliate Marketing in Bangladesh Today</h3>
+        <p> Join the most exciting platform for affiliate marketing in Bangladesh today and start earning from Star
+            Tech's
+            most visited online shop with the most extended range of product categories. Our online shop offers the
+            latest
+            and rich-in-feature Mobile phones, PC Components, Laptops, Gadgets, Gaming Accessories, Modern Lifestyle
+            goods,
+            and many more! Star Tech has the most expansive chain of physical store locations, which cover home delivery
+            to
+            every nook and canine in Bangladesh. Join now and become a proud Star Tech affiliate! To learn more, dial
+            the
+            Star Tech hotline at 16793 or visit our stores in Dhaka, Chattogram, Rajshahi, Khulna, Rangpur & Gazipur.
+        </p>
+    </div>
+
 </div>
 
 @endsection
