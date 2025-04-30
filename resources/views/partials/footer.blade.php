@@ -4,7 +4,7 @@
             <!-- SUPPORT -->
             <div class="col-lg-3 col-md-6">
                 <h6 class="text-uppercase text-white mb-4">Support</h6>
-                <div class="d-flex align-items-center mb-3 border border-secondary rounded p-3"><i
+                <div class="d-flex align-items-center mb-3 border border-secondary rounded-pill py-2 px-3"><i
                         class="fas fa-phone-alt fa-2x me-3 text-white"></i>
                     <div><small class="d-block">9AM - 8PM</small>
                         <h4 class="mb-0" style="color:#EF4A23;">16793</h4>
@@ -15,9 +15,9 @@
                     class="d-flex align-items-center btn btn-outline-secondary rounded-pill py-2 px-3 text-decoration-none">
                     <i class="fas fa-map-marker-alt fa-lg text-white me-3"></i>
                     <div class="border-start border-secondary me-3 align-self-stretch"></div>                    
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column align-items-start gap-1">
                         <small class="text-white-50">Store Locator</small>
-                        <span class="fw-bold" style="color:#EF4A23;">Find Our Stores</span>
+                        <span class="fw-bold " style="color:#EF4A23;">Find Our Stores</span>
                     </div>
                 </a>
 
@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-4">
                         <ul class="list-unstyled">
-                            <li class="mb-2"><a href="/affiliate-program" class="text-white-50 text-decoration-none">Affiliate
+                            <li class="mb-2"><a href="/affiliate" class="text-white-50 text-decoration-none">Affiliate
                                     Program</a></li>
                             <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Online
                                     Delivery</a></li>
