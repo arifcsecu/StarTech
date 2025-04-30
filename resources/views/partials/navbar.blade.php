@@ -13,7 +13,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Desktop</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
 
@@ -36,7 +36,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Laptop</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">All Laptop</a>
@@ -96,7 +96,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Component</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Processor</a>
@@ -123,7 +123,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Monitor</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">AOC</a>
@@ -154,7 +154,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">UPS</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Online UPS</a>
@@ -170,7 +170,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Phone</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">iPhone</a>
@@ -193,7 +193,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Tablet</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Grapics Tablet</a>
@@ -221,7 +221,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Office Equipment</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Projector</a>
@@ -261,7 +261,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Camera</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Action Camera</a>
@@ -282,7 +282,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Security</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Portable WiFi Camera</a>
@@ -308,7 +308,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Networking</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Router</a>
@@ -334,7 +334,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Software</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Operating System</a>
@@ -356,7 +356,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Server & Storage</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Server</a>
@@ -378,7 +378,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Accessories</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Keyboard</a>
@@ -405,7 +405,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Gadget</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Smart Watch</a>
@@ -430,7 +430,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Gaming</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">Gaming Chair</a>
@@ -450,7 +450,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">TV</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">ALL TV</a>
@@ -467,7 +467,7 @@
                     @mouseleave="open = false" style="display: inline-block;">
                     <a href="#" class="text-dark text-decoration-none fw-semibold pe-1">Appliance</a>
 
-                    <div x-show="open" x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
+                    <div x-show="open" x-cloak x-transition class="position-absolute bg-white shadow rounded mt-2 p-3"
                         style="z-index: 1050; min-width: 200px; width: 250px;" @mouseenter="open = true"
                         @mouseleave="open = false">
                         <a href="#" class="d-block text-dark text-decoration-none py-1">AC</a>

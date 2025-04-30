@@ -1,12 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Livewire\Counter;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\HomeController;
 
 Route::view('/', 'home')->name('home');
-Route::view('/affiliate-program', 'affiliate-program');
+Route::view('/affiliate-program', 'about-us.affiliate-program');
 Route::view('/login', 'livewire.auth.login');
 Route::view('/register', 'livewire.auth.register');
 Route::view('/forgot-password', 'livewire.auth.forgot-password');
@@ -19,5 +17,3 @@ Route::view('/cart', 'cart');
 Auth::routes(['reset' => true]);
 
 Auth::routes();
-
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

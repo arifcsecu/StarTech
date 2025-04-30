@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-4">
                         <ul class="list-unstyled">
-                            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Affiliate
+                            <li class="mb-2"><a href="/affiliate-program" class="text-white-50 text-decoration-none">Affiliate
                                     Program</a></li>
                             <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Online
                                     Delivery</a></li>
