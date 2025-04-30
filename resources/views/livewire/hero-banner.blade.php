@@ -1,5 +1,5 @@
 <section class="mt-4">  
-  <div class="container-fluid px-0">
+  <div class="container-fluid px-4">
     <div class="row gx-4 gy-0">
       <!-- LEFT: Hero Carousel -->
       <div class="col-lg-9 px-0">

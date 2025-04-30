@@ -1,6 +1,5 @@
-<!-- <nav class="navbar navbar-light bg-white border-bottom py-2"> -->
-<nav id = "catNav" class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
-    <div class="container">
+<nav id="catNav" class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
+    <div class="container-fluid">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories"
             aria-controls="navbarCategories" aria-expanded="false" aria-label="Toggle categories">
@@ -493,20 +492,17 @@
     </div>
 </nav>
 
-<!-- <div x-data="{ open: false }" …>…</div>
-<div x-data="{ open: false }" …>…</div> -->
 
 <script>
     const nav = document.getElementById('catNav');
     const offset = nav.offsetTop;
     window.addEventListener('scroll', () => {
-      if (window.pageYOffset > offset) {
-        nav.classList.add('fixed-top', 'shadow-sm');
-        document.body.style.paddingTop = nav.offsetHeight + 'px';
-      } else {
-        nav.classList.remove('fixed-top', 'shadow-sm');
-        document.body.style.paddingTop = 0;
-      }
+        if (window.pageYOffset > offset) {
+            nav.classList.add('fixed-top', 'shadow-sm');
+            document.body.style.paddingTop = nav.offsetHeight + 'px';
+        } else {
+            nav.classList.remove('fixed-top', 'shadow-sm');
+            document.body.style.paddingTop = 0;
+        }
     });
 </script>
-  
