@@ -1,5 +1,5 @@
 <!-- Floating Cart & Compare -->
-<div class="position-fixed end-0 bottom-0 me-3 mb-3 z-3" style="width: 60px;">
+<div class="position-fixed end-0 bottom-0 me-3 mb-3"  style="width:60px; z-index: 2000;">
     <!-- Compare -->
     <div class="position-relative mb-2">
         <a href="/compare" class="bg-dark d-flex flex-column align-items-center justify-content-center text-white text-decoration-none rounded p-2 shadow">

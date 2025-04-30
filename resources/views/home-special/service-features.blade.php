@@ -1,5 +1,5 @@
 
-<div class="container my-5">
+<div class="container-fluid my-5 px-4">
     <div class="row g-4">
         <!-- Laptop Finder -->
         <div class="col-12 col-md-6 col-lg-3">

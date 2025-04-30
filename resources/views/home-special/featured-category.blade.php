@@ -1,4 +1,4 @@
-<div class="container my-5">
+<div class="container-fluid my-5">
     <div class="text-center mb-4">
         <h3 class="fw-bold">Featured Category</h3>
         <p class="text-muted">Get Your Desired Product from Featured Category!</p>
